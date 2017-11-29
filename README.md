@@ -1,2 +1,2 @@
 # FSD-PortfolioSite
-Full Stack Developer Project: Building a Responsive Portfolio Site
+Full Stack Developer Project: Building a Responsive Portfolio Site.
