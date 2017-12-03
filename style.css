@@ -1,6 +1,25 @@
-#MainImage {
+#mainImage {
 	width: 100%;
 	max-height: 30%;
+}
+
+.main_header{
+	text-align: right;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 60px;
+}
+
+.secondary_header{
+	text-align: right;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.horizontal_line{
+	border: 5px solid #7d97ad;
+	margin: 50px 0px;
 }
 
 div.panel img {
