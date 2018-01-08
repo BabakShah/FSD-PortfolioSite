@@ -2,55 +2,66 @@
 <html lang="en">	
 
 <head>
+	<!-- Meta tags -->
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="This page will show portfolio of my projects.">
+	
+	<!-- Title -->
 	<title>Babak's Portfolio</title>
+
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-
-	<div class="header">
-		
-		<img id="logo" src="./assets/img/udacity.svg" alt="">
-
+	<!-- Header -->
+	<header>
+		<img class="logo" src="./assets/img/udacity.svg" alt="logo">
 		<h1 class="main_header">Babak's Portfolio</h1>
-		<!-- <h2 class="secondary_header">Engineer</h2> -->
+	</header>
 	
-	</div>
-	
+	<!-- Horizontal line -->
 	<hr class="horizontal_line">
-
-	<div class="main_image">
-		<img id="mainImage" src="./assets/img/main.jpg" alt="Main image">
-	</div>
-
-	<h2 class="">Featured Work</h2>
-	<div class="panel">
-
-		<div class="project panel-left">
-			<h4>Project1</h4>
-			<img src="./assets/img/panel-2.jpg" alt="">
-			<p>
-				<a href="#">GitHub link 1</a>
-			</p>
-		</div>
 	
-		<div class="project panel-middle">
-			<h4>Project2</h4>
-			<img src="./assets/img/panel-2.jpg" alt="">
-			<p>
-				<a href="#">GitHub link 1</a>
-			</p>
-		</div>
+	<!-- Main image section -->
+	<section>
+		<img class="mainImage" src="./assets/img/main.jpg" alt="main image">
+	</section>
 
-		<div class="project panel-right">
-			<h4>Project3</h4>
-			<img src="./assets/img/panel-2.jpg" alt="">
-			<p>
-				<a href="#">GitHub link 1</a>
-			</p>
-		</div>
+	<!-- Projects section -->
+	<section>
+		<h2 class="">Featured Work</h2>
+		<div class="panel">
+			
+			<!-- Project one -->
+			<div class="project panel-left">
+				<h4>Project1</h4>
+				<img class="project-image" src="./assets/img/panel-2.jpg" alt="project1">
+				<p>
+					<a href="#">GitHub link 1</a>
+				</p>
+			</div>
+		
+			<!-- Project two -->
+			<div class="project panel-middle">
+				<h4>Project2</h4>
+				<img class="project-image" src="./assets/img/panel-2.jpg" alt="project2">
+				<p>
+					<a href="#">GitHub link 2</a>
+				</p>
+			</div>
+			
+			<!-- Project three -->
+			<div class="project panel-right">
+				<h4>Project3</h4>
+				<img class="project-image" src="./assets/img/panel-2.jpg" alt="project3">
+				<p>
+					<a href="#">GitHub link 3</a>
+				</p>
+			</div>
 
-	</div>
+		</div>
+	</section>
 </body>
 </html>
