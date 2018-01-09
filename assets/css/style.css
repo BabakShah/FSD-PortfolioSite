@@ -3,30 +3,40 @@ body {
 	margin: 0;
 }
 
+.header {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+
 .mainImage {
 	width: 100%;
 	max-height: 30%;
 }
 
 .main_header {
-	text-align: right;
 	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 2em;
 }
 
 .secondary_header {
-	text-align: right;
 	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 14px;
+	width: 10%;
 }
 
 .logo {
-	text-align: left;
-	max-width: 40px;
-	max-height: 40px;
-	float: left;
+	max-width: 50px;
+	max-height: 50px;
 }
 
 .horizontal_line {
@@ -34,26 +44,21 @@ body {
 	margin: 50px 0px;
 }
 
-
-
 .project-image {
 	max-height: 100%;
 	margin: 0 auto;
 	max-width: 100%
 }
 
-/* Using Flexbox */
 .panel {
   padding: 0;
   margin: 0;
   list-style: none;
-  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
@@ -66,5 +71,4 @@ body {
   font-family: sans-serif;
   font-weight: normal;
   font-size: 14px;
-}
 }
